@@ -1,4 +1,4 @@
-![(logo)](https://github.com/niyongsheng/Classify/blob/master/logo.png?raw=true)
+![(logo)](https://raw.githubusercontent.com/niyongsheng/Classify/main/logo.png)
 Classify
 ===
 <p align="left">
@@ -7,20 +7,20 @@ Classify
   </a>
 </p>
 
-> 基于ResNet算法的垃圾分类 <br>
-> Garbage classification based on ResNet
+> 基于ResNet算法的垃圾分类项目 <br>
+> Garbage classification project based on ResNet
 
 ## Screenshot：
-![(logo)](https://github.com/niyongsheng/Classify/blob/master/LF100E8E-A3DE-4565-963D-2C315E370F9F.png)
+![(logo)](https://raw.githubusercontent.com/niyongsheng/Classify/main/LF100E8E-A3DE-4565-963D-2C315E370F9F.png)
 
-## Summary:
-- [x]Classify_localtrain   本地训练代码
-- [x]Classify_app_sever    服务部署代码
-- [x]garbage_app_sever     树莓派服务代码
-- [x]Classify_app_website  前端应用代码
+## Structure:
+- [x] Classify_localtrain   本地训练代码
+- [x] Classify_serverdeploy 服务部署代码
+- [x] Classify_app_sever    树莓派服务代码
+- [x] Classify_app_website  前端应用代码
 
 ---
-效果演示地址：https://www.bilibili.com/video/BV1Wh411h7K7
+演示地址：https://www.bilibili.com/video/BV1Wh411h7K7
 <br>
 训练数据集地址：https://developer.huaweicloud.com/hero/forum.php?mod=viewthread&tid=47550
 
@@ -70,6 +70,14 @@ cd /tmp/pycharm_project_809
 python3 ./app_sever.py
 
 
+// vue-electron启动
+yarn install
+// 调试
+yarn dev
+// 打包
+yarn build:linux
+
+
 // 解决服务端PyCharm运行外网ip无法访问，conda手动运行
 // 查看环境列表
 conda env list
@@ -95,5 +103,5 @@ conda deactivate
 ## Contribution
 Reward[:lollipop:](https://github.com/niyongsheng/niyongsheng.github.io/blob/master/Beg/README.md)  Encourage[:heart:](https://github.com/niyongsheng/NYSTK/stargazers)
 
-## Tinks
-[云中有傻狗](https://www.bilibili.com/video/BV1zJ411Y7jB?from=search&seid=12378720610423736804)
+## Tanks uploader
+[Bilibili 云中有傻狗](https://www.bilibili.com/video/BV1zJ411Y7jB?from=search&seid=12378720610423736804)
