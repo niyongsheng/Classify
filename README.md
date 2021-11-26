@@ -1,4 +1,3 @@
-![(logo)](https://raw.githubusercontent.com/niyongsheng/Classify/main/logo.png)
 Classify
 ===
 <p align="left">
